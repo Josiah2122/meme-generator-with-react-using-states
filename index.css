@@ -1,0 +1,74 @@
+*{
+ box-sizing: border-box;
+}
+body{
+ margin: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+ display: flex;
+ height: 65px;
+ width: 100%;
+ align-items: center;
+ background:linear-gradient(to right,#711F8D,#A818DA);
+ color: white;
+}
+.navbar >img{
+ width: 31.31px;
+ height: 26.22px;
+ margin-left: 20px;
+ margin-right: 7px;
+}
+.navbar > h3{
+ margin-right: auto;
+}
+.navbar > p{
+ margin-right: 37px;
+}
+
+.container-1{
+ width: 477px;
+ margin: 37px auto;
+}
+.sub-container-2{
+ width: 100%;
+ position: relative;
+}
+.sub-container-2 > img{
+ width: 100%;
+}
+.inputs{
+ width: 230px;
+ height: 35px;
+ border: 1px solid black;
+ border-radius: 5px;
+ padding-left: 10px;
+}
+.input-container{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 15px;
+}
+.sub-container-1 > button{
+ width: 100%;
+ height: 40px;
+ margin-bottom: 37px;
+ font-weight: bold;
+ color: white;
+ background:linear-gradient(to right,#711F8D,#A818DA);
+ border: 1px solid white;
+ border-radius: 5px;
+}.sub-container-2 > h3{
+ position: absolute;
+ color: white;
+}
+.text-1{
+ top:16px;
+ left: 117px;
+}
+.text-2{
+ bottom: 16px;
+ left: 103px;
+}
